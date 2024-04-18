@@ -31,7 +31,6 @@ function logar() {
         window.location.href = 'https://henrique0927.github.io/att-login-mobile/logado.html';
         document.getElementById('span-nome-dinamico').textContent = user1[0];
         document.getElementById('span-senha-dinamica').textContent = user1[1];
-        document.querySelector('span-estilizada').style.color = 'blue'
     } else {
         // Exibe uma mensagem de erro se os dados estiverem incorretos
         document.getElementById('span-login').textContent = 'Nome de Usuário ou Senha Incorreto.';
