@@ -28,9 +28,7 @@ function logar() {
     // Verifica se o nome de usuário e a senha correspondem aos valores válidos
     if (usuario === user1[0] && senha === user1[1]) {
         // Redireciona para a página logado se os dados estiverem corretos
-        window.location.href = 'https://henrique0927.github.io/att-login-mobile/logado.html';
-        document.getElementById('span-nome-dinamico').textContent = user1[0];
-        document.getElementById('span-senha-dinamica').textContent = user1[1];
+        window.location.href = '/logado.html';
     } else {
         // Exibe uma mensagem de erro se os dados estiverem incorretos
         document.getElementById('span-login').textContent = 'Nome de Usuário ou Senha Incorreto.';
